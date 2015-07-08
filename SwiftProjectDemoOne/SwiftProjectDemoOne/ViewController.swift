@@ -8,10 +8,14 @@
 
 import UIKit
 
+import Alamofire
+
 class ViewController: UIViewController {
 
+    @IBOutlet weak var btnRequest: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -20,6 +24,15 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    func completionHandler(request: NSURLRequest, response: NSHTTPURLResponse?, data: AnyObject?, err: NSError?) -> Void {
+        println(response)
+        var datastring = NSString(data: data as! NSData, encoding: NSUTF8StringEncoding)
+        println(datastring)
+    }
+    
+    @IBAction func btnpressed_request(sender: AnyObject) {
+        Alamofire.request(.GET, "http://127.0.0.1:8888/scriptOne.php").response(completionHandler)
+    }
 
 }
 
