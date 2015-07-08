@@ -32,6 +32,15 @@ class ViewController: UIViewController {
     
     @IBAction func btnpressed_request(sender: AnyObject) {
         Alamofire.request(.GET, "http://127.0.0.1:8888/scriptOne.php").response(completionHandler)
+        
+        Alamofire.request(.GET, "http://127.0.0.1:8888/scriptOne.php").responseJSON{ (req, res, json, err) -> Void in
+            if err != nil {
+                println("error")
+            } else {
+                var json = JSON(json!)
+                println("the json is \(json)")
+            }
+        }
     }
 
 }

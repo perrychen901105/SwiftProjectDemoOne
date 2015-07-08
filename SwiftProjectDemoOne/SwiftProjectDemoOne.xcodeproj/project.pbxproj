@@ -15,6 +15,7 @@
 		2ADA501C1B4CC9FB00D58546 /* SwiftProjectDemoOneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADA501B1B4CC9FB00D58546 /* SwiftProjectDemoOneTests.swift */; };
 		2ADA50341B4CCF5800D58546 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ADA502D1B4CCD5B00D58546 /* Alamofire.framework */; };
 		2ADA50351B4CCF5800D58546 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2ADA502D1B4CCD5B00D58546 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2ADA50401B4D213B00D58546 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADA503F1B4D213B00D58546 /* SwiftyJSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +89,7 @@
 		2ADA501A1B4CC9FB00D58546 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2ADA501B1B4CC9FB00D58546 /* SwiftProjectDemoOneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftProjectDemoOneTests.swift; sourceTree = "<group>"; };
 		2ADA50251B4CCD5B00D58546 /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = ../Alamofire/Alamofire.xcodeproj; sourceTree = "<group>"; };
+		2ADA503F1B4D213B00D58546 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +183,7 @@
 		2ADA503A1B4D0EB800D58546 /* Support */ = {
 			isa = PBXGroup;
 			children = (
+				2ADA503E1B4D212B00D58546 /* ObjToJson */,
 				2ADA503B1B4D0EB800D58546 /* HttpClient */,
 			);
 			path = Support;
@@ -191,6 +194,14 @@
 			children = (
 			);
 			path = HttpClient;
+			sourceTree = "<group>";
+		};
+		2ADA503E1B4D212B00D58546 /* ObjToJson */ = {
+			isa = PBXGroup;
+			children = (
+				2ADA503F1B4D213B00D58546 /* SwiftyJSON.swift */,
+			);
+			path = ObjToJson;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -332,6 +343,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2ADA50401B4D213B00D58546 /* SwiftyJSON.swift in Sources */,
 				2ADA50081B4CC9FB00D58546 /* ViewController.swift in Sources */,
 				2ADA50061B4CC9FB00D58546 /* AppDelegate.swift in Sources */,
 			);
