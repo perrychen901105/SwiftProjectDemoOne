@@ -131,6 +131,7 @@
 		2ADA50021B4CC9FB00D58546 /* SwiftProjectDemoOne */ = {
 			isa = PBXGroup;
 			children = (
+				2ADA503A1B4D0EB800D58546 /* Support */,
 				2ADA50051B4CC9FB00D58546 /* AppDelegate.swift */,
 				2ADA50071B4CC9FB00D58546 /* ViewController.swift */,
 				2ADA50091B4CC9FB00D58546 /* Main.storyboard */,
@@ -175,6 +176,21 @@
 				2ADA50331B4CCD5B00D58546 /* Alamofire OSX Tests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		2ADA503A1B4D0EB800D58546 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				2ADA503B1B4D0EB800D58546 /* HttpClient */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		2ADA503B1B4D0EB800D58546 /* HttpClient */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HttpClient;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
