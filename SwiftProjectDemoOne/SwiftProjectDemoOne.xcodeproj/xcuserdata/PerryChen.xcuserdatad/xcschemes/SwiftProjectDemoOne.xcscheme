@@ -34,6 +34,20 @@
                ReferencedContainer = "container:SwiftProjectDemoOne.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2A09AF0A1B675E98009531AE"
+               BuildableName = "DataProviderTests.xctest"
+               BlueprintName = "DataProviderTests"
+               ReferencedContainer = "container:SwiftProjectDemoOne.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -49,6 +63,16 @@
                BlueprintIdentifier = "2ADA50141B4CC9FB00D58546"
                BuildableName = "SwiftProjectDemoOneTests.xctest"
                BlueprintName = "SwiftProjectDemoOneTests"
+               ReferencedContainer = "container:SwiftProjectDemoOne.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2A09AF0A1B675E98009531AE"
+               BuildableName = "DataProviderTests.xctest"
+               BlueprintName = "DataProviderTests"
                ReferencedContainer = "container:SwiftProjectDemoOne.xcodeproj">
             </BuildableReference>
          </TestableReference>

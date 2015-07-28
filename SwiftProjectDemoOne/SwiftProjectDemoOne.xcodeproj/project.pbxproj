@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A09AF061B675E98009531AE /* DataProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A09AF051B675E98009531AE /* DataProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A09AF0C1B675E98009531AE /* DataProvider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A09AF011B675E98009531AE /* DataProvider.framework */; };
+		2A09AF151B675E98009531AE /* DataProviderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A09AF141B675E98009531AE /* DataProviderTests.swift */; };
+		2A09AF181B675E98009531AE /* DataProvider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A09AF011B675E98009531AE /* DataProvider.framework */; };
+		2A09AF191B675E98009531AE /* DataProvider.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2A09AF011B675E98009531AE /* DataProvider.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2A09AF261B677AB7009531AE /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADA503F1B4D213B00D58546 /* SwiftyJSON.swift */; };
+		2A09AF291B677B02009531AE /* FetchDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A09AF281B677B02009531AE /* FetchDataProvider.swift */; };
+		2A09AF2B1B677BB3009531AE /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A09AF2A1B677BB3009531AE /* Person.swift */; };
+		2A09AF2D1B677FFE009531AE /* DataProviderService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A09AF2C1B677FFE009531AE /* DataProviderService.swift */; };
+		2A09AF6E1B678D00009531AE /* ObjectMapper.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 2A09AF641B678BF0009531AE /* ObjectMapper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		2ADA50061B4CC9FB00D58546 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADA50051B4CC9FB00D58546 /* AppDelegate.swift */; };
 		2ADA50081B4CC9FB00D58546 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADA50071B4CC9FB00D58546 /* ViewController.swift */; };
 		2ADA500B1B4CC9FB00D58546 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ADA50091B4CC9FB00D58546 /* Main.storyboard */; };
@@ -19,6 +29,62 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		2A09AF0D1B675E98009531AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2ADA4FF81B4CC9FB00D58546 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A09AF001B675E98009531AE;
+			remoteInfo = DataProvider;
+		};
+		2A09AF0F1B675E98009531AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2ADA4FF81B4CC9FB00D58546 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2ADA4FFF1B4CC9FB00D58546;
+			remoteInfo = SwiftProjectDemoOne;
+		};
+		2A09AF161B675E98009531AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2ADA4FF81B4CC9FB00D58546 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A09AF001B675E98009531AE;
+			remoteInfo = DataProvider;
+		};
+		2A09AF631B678BF0009531AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A09AF5C1B678BF0009531AE /* ObjectMapper.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6AAC8F7619F03C2900E7A677;
+			remoteInfo = "ObjectMapper-iOS";
+		};
+		2A09AF651B678BF0009531AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A09AF5C1B678BF0009531AE /* ObjectMapper.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6AAC8F8119F03C2900E7A677;
+			remoteInfo = "ObjectMapper-iOSTests";
+		};
+		2A09AF671B678BF0009531AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A09AF5C1B678BF0009531AE /* ObjectMapper.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CD1602FF1AC023D5000CD69A;
+			remoteInfo = "ObjectMapper-Mac";
+		};
+		2A09AF691B678BF0009531AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A09AF5C1B678BF0009531AE /* ObjectMapper.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CD1603091AC023D6000CD69A;
+			remoteInfo = "ObjectMapper-MacTests";
+		};
+		2A09AF6B1B678C9A009531AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A09AF5C1B678BF0009531AE /* ObjectMapper.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6AAC8F7519F03C2900E7A677;
+			remoteInfo = "ObjectMapper-iOS";
+		};
 		2ADA50161B4CC9FB00D58546 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 2ADA4FF81B4CC9FB00D58546 /* Project object */;
@@ -64,6 +130,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		2A09AF6D1B678CCD009531AE /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2A09AF6E1B678D00009531AE /* ObjectMapper.framework in Copy Frameworks */,
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2ADA50381B4CCF5900D58546 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -71,6 +148,7 @@
 			dstSubfolderSpec = 10;
 			files = (
 				2ADA50351B4CCF5800D58546 /* Alamofire.framework in Embed Frameworks */,
+				2A09AF191B675E98009531AE /* DataProvider.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -78,6 +156,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2A09AF011B675E98009531AE /* DataProvider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DataProvider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A09AF041B675E98009531AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A09AF051B675E98009531AE /* DataProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataProvider.h; sourceTree = "<group>"; };
+		2A09AF0B1B675E98009531AE /* DataProviderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataProviderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A09AF131B675E98009531AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A09AF141B675E98009531AE /* DataProviderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataProviderTests.swift; sourceTree = "<group>"; };
+		2A09AF281B677B02009531AE /* FetchDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FetchDataProvider.swift; sourceTree = "<group>"; };
+		2A09AF2A1B677BB3009531AE /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		2A09AF2C1B677FFE009531AE /* DataProviderService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataProviderService.swift; sourceTree = "<group>"; };
+		2A09AF5C1B678BF0009531AE /* ObjectMapper.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ObjectMapper.xcodeproj; path = ObjectMapper/ObjectMapper.xcodeproj; sourceTree = "<group>"; };
 		2ADA50001B4CC9FB00D58546 /* SwiftProjectDemoOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftProjectDemoOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2ADA50041B4CC9FB00D58546 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2ADA50051B4CC9FB00D58546 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -93,11 +181,27 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2A09AEFD1B675E98009531AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A09AF081B675E98009531AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A09AF0C1B675E98009531AE /* DataProvider.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2ADA4FFD1B4CC9FB00D58546 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				2ADA50341B4CCF5800D58546 /* Alamofire.framework in Frameworks */,
+				2A09AF181B675E98009531AE /* DataProvider.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,12 +215,63 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A09AF021B675E98009531AE /* DataProvider */ = {
+			isa = PBXGroup;
+			children = (
+				2A09AF051B675E98009531AE /* DataProvider.h */,
+				2A09AF031B675E98009531AE /* Supporting Files */,
+				2A09AF281B677B02009531AE /* FetchDataProvider.swift */,
+				2A09AF2A1B677BB3009531AE /* Person.swift */,
+				2A09AF2C1B677FFE009531AE /* DataProviderService.swift */,
+			);
+			path = DataProvider;
+			sourceTree = "<group>";
+		};
+		2A09AF031B675E98009531AE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A09AF041B675E98009531AE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2A09AF111B675E98009531AE /* DataProviderTests */ = {
+			isa = PBXGroup;
+			children = (
+				2A09AF141B675E98009531AE /* DataProviderTests.swift */,
+				2A09AF121B675E98009531AE /* Supporting Files */,
+			);
+			path = DataProviderTests;
+			sourceTree = "<group>";
+		};
+		2A09AF121B675E98009531AE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A09AF131B675E98009531AE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2A09AF5D1B678BF0009531AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A09AF641B678BF0009531AE /* ObjectMapper.framework */,
+				2A09AF661B678BF0009531AE /* ObjectMapper-iOSTests.xctest */,
+				2A09AF681B678BF0009531AE /* ObjectMapper.framework */,
+				2A09AF6A1B678BF0009531AE /* ObjectMapper-MacTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		2ADA4FF71B4CC9FB00D58546 = {
 			isa = PBXGroup;
 			children = (
+				2A09AF5C1B678BF0009531AE /* ObjectMapper.xcodeproj */,
 				2ADA50251B4CCD5B00D58546 /* Alamofire.xcodeproj */,
 				2ADA50021B4CC9FB00D58546 /* SwiftProjectDemoOne */,
 				2ADA50181B4CC9FB00D58546 /* SwiftProjectDemoOneTests */,
+				2A09AF021B675E98009531AE /* DataProvider */,
+				2A09AF111B675E98009531AE /* DataProviderTests */,
 				2ADA50011B4CC9FB00D58546 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -126,6 +281,8 @@
 			children = (
 				2ADA50001B4CC9FB00D58546 /* SwiftProjectDemoOne.app */,
 				2ADA50151B4CC9FB00D58546 /* SwiftProjectDemoOneTests.xctest */,
+				2A09AF011B675E98009531AE /* DataProvider.framework */,
+				2A09AF0B1B675E98009531AE /* DataProviderTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -206,7 +363,55 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		2A09AEFE1B675E98009531AE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A09AF061B675E98009531AE /* DataProvider.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		2A09AF001B675E98009531AE /* DataProvider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A09AF211B675E99009531AE /* Build configuration list for PBXNativeTarget "DataProvider" */;
+			buildPhases = (
+				2A09AEFC1B675E98009531AE /* Sources */,
+				2A09AEFD1B675E98009531AE /* Frameworks */,
+				2A09AEFE1B675E98009531AE /* Headers */,
+				2A09AEFF1B675E98009531AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DataProvider;
+			productName = DataProvider;
+			productReference = 2A09AF011B675E98009531AE /* DataProvider.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2A09AF0A1B675E98009531AE /* DataProviderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A09AF221B675E99009531AE /* Build configuration list for PBXNativeTarget "DataProviderTests" */;
+			buildPhases = (
+				2A09AF071B675E98009531AE /* Sources */,
+				2A09AF081B675E98009531AE /* Frameworks */,
+				2A09AF091B675E98009531AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A09AF0E1B675E98009531AE /* PBXTargetDependency */,
+				2A09AF101B675E98009531AE /* PBXTargetDependency */,
+			);
+			name = DataProviderTests;
+			productName = DataProviderTests;
+			productReference = 2A09AF0B1B675E98009531AE /* DataProviderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		2ADA4FFF1B4CC9FB00D58546 /* SwiftProjectDemoOne */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2ADA501F1B4CC9FB00D58546 /* Build configuration list for PBXNativeTarget "SwiftProjectDemoOne" */;
@@ -215,11 +420,14 @@
 				2ADA4FFD1B4CC9FB00D58546 /* Frameworks */,
 				2ADA4FFE1B4CC9FB00D58546 /* Resources */,
 				2ADA50381B4CCF5900D58546 /* Embed Frameworks */,
+				2A09AF6D1B678CCD009531AE /* Copy Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				2A09AF6C1B678C9A009531AE /* PBXTargetDependency */,
 				2ADA50371B4CCF5800D58546 /* PBXTargetDependency */,
+				2A09AF171B675E98009531AE /* PBXTargetDependency */,
 			);
 			name = SwiftProjectDemoOne;
 			productName = SwiftProjectDemoOne;
@@ -253,6 +461,13 @@
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = PerryChen;
 				TargetAttributes = {
+					2A09AF001B675E98009531AE = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					2A09AF0A1B675E98009531AE = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 2ADA4FFF1B4CC9FB00D58546;
+					};
 					2ADA4FFF1B4CC9FB00D58546 = {
 						CreatedOnToolsVersion = 6.4;
 					};
@@ -278,16 +493,50 @@
 					ProductGroup = 2ADA50261B4CCD5B00D58546 /* Products */;
 					ProjectRef = 2ADA50251B4CCD5B00D58546 /* Alamofire.xcodeproj */;
 				},
+				{
+					ProductGroup = 2A09AF5D1B678BF0009531AE /* Products */;
+					ProjectRef = 2A09AF5C1B678BF0009531AE /* ObjectMapper.xcodeproj */;
+				},
 			);
 			projectRoot = "";
 			targets = (
 				2ADA4FFF1B4CC9FB00D58546 /* SwiftProjectDemoOne */,
 				2ADA50141B4CC9FB00D58546 /* SwiftProjectDemoOneTests */,
+				2A09AF001B675E98009531AE /* DataProvider */,
+				2A09AF0A1B675E98009531AE /* DataProviderTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		2A09AF641B678BF0009531AE /* ObjectMapper.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ObjectMapper.framework;
+			remoteRef = 2A09AF631B678BF0009531AE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2A09AF661B678BF0009531AE /* ObjectMapper-iOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "ObjectMapper-iOSTests.xctest";
+			remoteRef = 2A09AF651B678BF0009531AE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2A09AF681B678BF0009531AE /* ObjectMapper.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ObjectMapper.framework;
+			remoteRef = 2A09AF671B678BF0009531AE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2A09AF6A1B678BF0009531AE /* ObjectMapper-MacTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "ObjectMapper-MacTests.xctest";
+			remoteRef = 2A09AF691B678BF0009531AE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		2ADA502D1B4CCD5B00D58546 /* Alamofire.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
@@ -319,6 +568,20 @@
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
+		2A09AEFF1B675E98009531AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A09AF091B675E98009531AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2ADA4FFE1B4CC9FB00D58546 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -339,6 +602,25 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		2A09AEFC1B675E98009531AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A09AF2B1B677BB3009531AE /* Person.swift in Sources */,
+				2A09AF261B677AB7009531AE /* SwiftyJSON.swift in Sources */,
+				2A09AF2D1B677FFE009531AE /* DataProviderService.swift in Sources */,
+				2A09AF291B677B02009531AE /* FetchDataProvider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A09AF071B675E98009531AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A09AF151B675E98009531AE /* DataProviderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2ADA4FFC1B4CC9FB00D58546 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -360,6 +642,26 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		2A09AF0E1B675E98009531AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A09AF001B675E98009531AE /* DataProvider */;
+			targetProxy = 2A09AF0D1B675E98009531AE /* PBXContainerItemProxy */;
+		};
+		2A09AF101B675E98009531AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2ADA4FFF1B4CC9FB00D58546 /* SwiftProjectDemoOne */;
+			targetProxy = 2A09AF0F1B675E98009531AE /* PBXContainerItemProxy */;
+		};
+		2A09AF171B675E98009531AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A09AF001B675E98009531AE /* DataProvider */;
+			targetProxy = 2A09AF161B675E98009531AE /* PBXContainerItemProxy */;
+		};
+		2A09AF6C1B678C9A009531AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ObjectMapper-iOS";
+			targetProxy = 2A09AF6B1B678C9A009531AE /* PBXContainerItemProxy */;
+		};
 		2ADA50171B4CC9FB00D58546 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 2ADA4FFF1B4CC9FB00D58546 /* SwiftProjectDemoOne */;
@@ -392,6 +694,82 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		2A09AF1A1B675E99009531AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DataProvider/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2A09AF1B1B675E99009531AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = DataProvider/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2A09AF1C1B675E99009531AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DataProviderTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftProjectDemoOne.app/SwiftProjectDemoOne";
+			};
+			name = Debug;
+		};
+		2A09AF1D1B675E99009531AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DataProviderTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftProjectDemoOne.app/SwiftProjectDemoOne";
+			};
+			name = Release;
+		};
 		2ADA501D1B4CC9FB00D58546 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -532,6 +910,22 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2A09AF211B675E99009531AE /* Build configuration list for PBXNativeTarget "DataProvider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A09AF1A1B675E99009531AE /* Debug */,
+				2A09AF1B1B675E99009531AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2A09AF221B675E99009531AE /* Build configuration list for PBXNativeTarget "DataProviderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A09AF1C1B675E99009531AE /* Debug */,
+				2A09AF1D1B675E99009531AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		2ADA4FFB1B4CC9FB00D58546 /* Build configuration list for PBXProject "SwiftProjectDemoOne" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

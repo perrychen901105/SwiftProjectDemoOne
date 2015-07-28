@@ -12,6 +12,8 @@
 	<dict>
 		<key>0795373DCD2ADFC4CD22049DAF9238CDDDD98E69</key>
 		<string>https://github.com/perrychen901105/SwiftProjectDemoOne.git</string>
+		<key>58AAB0051E2B4EEDF1845A552012E6D0EBAD9127</key>
+		<string>https://github.com/Hearst-DD/ObjectMapper.git</string>
 		<key>67620B5EFA902936DF04070AF595B76AB0333747</key>
 		<string>https://github.com/Alamofire/Alamofire.git</string>
 	</dict>
@@ -21,8 +23,10 @@
 	<dict>
 		<key>0795373DCD2ADFC4CD22049DAF9238CDDDD98E69</key>
 		<string>../../..</string>
+		<key>58AAB0051E2B4EEDF1845A552012E6D0EBAD9127</key>
+		<string>../../../SwiftProjectDemoOne/ObjectMapper/</string>
 		<key>67620B5EFA902936DF04070AF595B76AB0333747</key>
-		<string>../../..Alamofire/</string>
+		<string>../../..Alamofire</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/perrychen901105/SwiftProjectDemoOne.git</string>
@@ -36,9 +40,9 @@
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>67620B5EFA902936DF04070AF595B76AB0333747</string>
+			<string>58AAB0051E2B4EEDF1845A552012E6D0EBAD9127</string>
 			<key>IDESourceControlWCCName</key>
-			<string>Alamofire</string>
+			<string>ObjectMapper</string>
 		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
@@ -47,6 +51,14 @@
 			<string>0795373DCD2ADFC4CD22049DAF9238CDDDD98E69</string>
 			<key>IDESourceControlWCCName</key>
 			<string>SwiftProjectDemoOne</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>67620B5EFA902936DF04070AF595B76AB0333747</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SwiftProjectDemoOneAlamofire</string>
 		</dict>
 	</array>
 </dict>
